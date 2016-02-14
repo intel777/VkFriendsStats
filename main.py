@@ -17,7 +17,7 @@ if os.path.exists('result.txt'):
     result = open('result.txt', 'w')
 else:
     result = open('result.txt', 'w')
-result.write("Анализатор поппулярности страниц v0.1 \n1 лайк = 1 очко, 1 репост = 2 очка \n \n===================================\n")
+result.write("Анализатор популярности страниц v0.1 \n1 лайк = 1 очко, 1 репост = 2 очка \n \n===================================\n")
 result.close()
 token=''
 session = vk.AuthSession(access_token=token)
